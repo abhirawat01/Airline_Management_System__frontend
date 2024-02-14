@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar{
+    background-color: rgb(180, 180, 46);
+}
+
+.banner{
+    max-height: 300px;
+    min-height: 200px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.banner-name{
+    position: absolute;
+    top: 20rem;
+    left: 43rem;
+    font-size: 40rem;
+}
+
+.banner-name h2{
+    font-size: 3rem;
+}
+
+.user-input{
+    background-color: rgb(110, 109, 109);
+    border: solid 1px black;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    min-height: 11rem;
+    max-height: 20rem;
+    max-width: 70%;
+    position: relative;
+}
+
+.pri{
+    padding-bottom: 1rem;
+}
+
+.user-detail{
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+#counter{
+    color: rgb(255, 255, 255);
+}
+
+.explore-btn{
+    position: absolute;
+    top:9rem;
+    left:45%;
+}
+
+.btn{
+    padding: 10px 20px;
+}
+
+.round{
+    border-radius: 10px;
+}
+
+#myDropdown{
+    padding: 5px 10px;
+}
+
